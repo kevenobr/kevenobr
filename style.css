@@ -1,5 +1,10 @@
+html {
+  background-color: black;
+}
+
 h1 {
   text-align: center;
+  color: purple;
 }
 
 img {
@@ -7,10 +12,35 @@ img {
   width: 50px;
   height: 50px;
   border-radius: 50px;
-  border: solid 5px black;
+  border: solid 5px purple;
 }
 
 .media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: row;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+button {
+  border-color: purple;
+  border-radius: 10%;
+  background-color: black;
+  color: white;
+  padding: 2px 5px;
+  cursor: pointer;
+}
+
+nav {
   display: flex;
   justify-content: center;
   align-items: center;

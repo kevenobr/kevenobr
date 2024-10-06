@@ -6,5 +6,5 @@ function greetUser() {
  const greetingElement = document
   .getElementById("helloArea");
  greetingElement.textContent =
-  "Hello, " + name + "!";
+  "hello, " + name + "!";
 }

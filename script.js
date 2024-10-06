@@ -1,10 +1,7 @@
 function greetUser() {
- const nameInput = document
-  .getElementById("nameInput");
+ const nameInput = document.getElementById("nameInput");
  const name = nameInput.value;
 
- const greetingElement = document
-  .getElementById("helloArea");
- greetingElement.textContent =
-  "hello, " + name + "!";
+ const greetingElement = document.getElementById("helloArea");
+ greetingElement.textContent = "hello, " + name + "!";
 }

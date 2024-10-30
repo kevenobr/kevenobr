@@ -148,3 +148,17 @@ nav {
     top: 50%;
     transform: translate(-20%, -20%) rotate(-45deg);
 }
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+#changeColor {
+  margin-top: 20px;
+}

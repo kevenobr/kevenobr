@@ -1,5 +1,4 @@
 //hello name//
-
 function greetUser() {
  const nameInput = document
   .getElementById("nameInput");
@@ -12,7 +11,6 @@ function greetUser() {
 }
 
 //hamburguer menu//
-
 const hamMenu = document
  .querySelector(".ham-menu");
 
@@ -25,3 +23,11 @@ hamMenu.addEventListener("click",
   offScreenMenu.classList.toggle(
    "active");
  });
+ 
+ // colors //
+ const changeColorButton = document.getElementById("changeColor");
+
+changeColorButton.addEventListener("click", () => {
+  const randomColor = "#" + Math.floor(Math.random() * 16777215).toString(16);
+  document.body.style.backgroundColor = randomColor;
+});

@@ -1,0 +1,182 @@
+img {
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  border: solid 5px purple;
+}
+
+.media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: row;
+  margin-top: 42px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  color: white;
+}
+
+button {
+  border-color: purple;
+  border-radius: 10%;
+  background-color: black;
+  color: white;
+  padding: 2px 5px;
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: row;
+  height: 50px;
+  width: 100%;
+}
+
+#logo {
+ color: black;
+}
+
+/* base styles (hamburguer menu) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+a {
+    color: white;
+}
+a:visited {
+    color: white;
+}
+a:hover {
+    color: #6F86FF;
+}
+.links-off-screen-menu {
+    color: white;
+    margin: 10px;
+}
+
+body {
+    background-color: white;
+    font-family: sans-serif;
+}
+
+/* off-screen-menu */
+.off-screen-menu {
+    background-color: purple;
+    height: 100vh;
+    width: 50%;
+    max-width: 450px;
+    position: fixed;
+    top: 0;
+    right: -450px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    border: solid 2px black;   
+    /*justify-content: center;*/
+    /*text-align: center;*/
+    font-size: 22px;
+    transition: .3s ease;
+}
+.off-screen-menu.active {
+    right: 0;
+}
+
+li {
+background-color: black;
+margin: 10px;
+border-radius: 10px;
+}
+
+/* nav */
+nav {
+    padding: 1rem;
+    display: flex;
+    background-color: purple;
+}
+
+/* ham menu */
+.ham-menu {
+    height: 30px;
+    width: 30px;
+    margin-left: auto;
+    position: relative;
+}
+.ham-menu span {
+    height: 5px;
+    width: 100%;
+    background-color: black;
+    border-radius: 1px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: .3s ease;
+}
+.ham-menu span:nth-child(1) {
+    top: 25%;
+}
+.ham-menu span:nth-child(3) {
+    top: 75%;
+}
+.ham-menu.active span {
+    background-color: black;
+}
+.ham-menu.active span:nth-child(1) {
+    top: 50%;
+    transform: translate(-20%, -20%) rotate(45deg);
+}
+.ham-menu.active span:nth-child(2) {
+    opacity: 0;
+}
+.ham-menu.active span:nth-child(3) {
+    top: 50%;
+    transform: translate(-20%, -20%) rotate(-45deg);
+}
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+}
+
+.footerP {
+  padding-top: 0px;
+  color: black;
+  border: 2px solid;
+  border-top-color: purple;
+  border-left-color: white;
+  border-right-color: white
+  border-bottom-color: white;
+}
+
+#footerLine {
+  display: flex;
+  bottom: ;
+  background-color: purple;
+  height: 1px;
+  width: 100%;
+}
+
+.costureiras {
+  color: black;
+}

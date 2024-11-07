@@ -201,3 +201,24 @@ hamMenu.addEventListener("click",
   offScreenMenu.classList.toggle(
    "active");
  });
+ 
+ // gemini's cookie banner
+
+// Function to hide the cookie banner
+function hideCookieBanner() {
+    document.getElementById("cookie-banner").style.display = "none";
+}
+
+// Event listener for the "Accept" button
+document.getElementById("accept-cookies").addEventListener("click", function() {
+    // Set a cookie to indicate user acceptance
+    document.cookie = "acceptedCookies=true; expires=Thu, 18 Dec 2025 12:00:00 UTC; path=/";
+    hideCookieBanner();
+});
+
+// Check if the user has already accepted cookies
+if (document.cookie.indexOf("acceptedCookies=true") !== -1) {
+    hideCookieBanner();
+}
+
+// gemini's cookie banner

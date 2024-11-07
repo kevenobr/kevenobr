@@ -8,7 +8,10 @@
    <!--<meta name="keywords" content="HTML, webpage, heading">-->
    <link rel="shortcut icon" href="https://yt3.googleusercontent.com/ytc/AIdro_lstB3YH641mvD7c0F5CsIK1VohS5sGjDHznzqAxeFzDrKoh35mwiEQPb1tQwNdxYWaWA=s160-c-k-c0x00ffffff-no-rj" type="image/png">
    <link rel="stylesheet" href="style.css">
-   <!--cookieCode start src: https://github.com/michal-nahlik/gdpr-cookie-consent-minimal/tree/master-->
+   
+   <!--cookieCode start -->
+   <div class="off-screen-cookie">
+  <!-- src: https://github.com/michal-nahlik/gdpr-cookie-consent-minimal/tree/master-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
         <script>
@@ -32,6 +35,9 @@
           'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
           })(window,document,'script','dataLayer','GTM-XXXXXXX');</script>
           <!-- End Google Tag Manager -->
+          </div>
+          <!-- cookieCode end -->
+         
     </head>
 
     <body>
@@ -40,7 +46,7 @@
   <li><a class="links-off-screen-menu" href="https://kevenobr.github.io/kevenobr/">home</a></li>
   <li><a class="links-off-screen-menu" href="about.html">about</a></li>
   <li><a class="links-off-screen-menu" href="contact.html">contact</a></li>
-  <li><a class="links-off-screen-menu" href="costureiras.html">costureiras</a></li>
+  <li><a class="links-off-screen-menu" href="contact.html">more<span id="ddddd">ddddd</span></a></li>
  </ul>
 </div>
 
@@ -55,6 +61,16 @@
  </div>
 </nav>
 
+<!--gemini's cookie banner
+
+    <div id="cookie-banner">
+        <p>We use cookies to improve your experience on our website. By continuing to use this website, you agree to our use of cookies.</p>
+        <button><a href="#" class="showCookieDialog">Cookie settings</a></button>
+        <button id="accept-cookies">Accept</button>
+    </div>
+
+gemini's cookie banner-->
+
 <div class = "media">
   <a href="https://www.youtube.com/@kevenobr">
   <img src="https://play-lh.googleusercontent.com/Qolm5gr9jnabjk-0z79srjYC1XPVExribNz5kbDmGJeEtmRlo0UQoQEIkKMHRyt5paw=w240-h480-rw" alt="YouTube">
@@ -62,14 +78,24 @@
   <a href="https://www.tiktok.com/@kevenobr">
   <img src="https://play-lh.googleusercontent.com/k2Rc1A4sDLJ0YqomSvqb-hj6HeizgjdzpHrp-ERW7zgOHvCu4YDmvTpxY8fjR6duhyc=w240-h480-rw" alt="TikTok">
   </a>
-  <a href="https://www.instagram.com/kevenobr/">
-  <img src="https://play-lh.googleusercontent.com/ZIrCcsga5EiJpCqQtOzuVFSHY4yOiESvZrLFy-gC0OGHZ9fKM018odPj2Q0TPmrOpRvD=w240-h480-rw" alt="Instagram">
+  <a href="https://instagram.com/kevenobr">
+  <img src="https://play-lh.googleusercontent.com/VRMWkE5p3CkWhJs6nv-9ZsLAs1QOg5ob1_3qg-rckwYW7yp1fMrYZqnEFpk0IoVP4LM=w480-h960-rw" alt="Instagram">
   </a>
   <a href=https://x.com/kevenobr>
-  <img src="https://play-lh.googleusercontent.com/A-Rnrh0J7iKmABskTonqFAANRLGTGUg_nuE4PEMYwJavL3nPt5uWsU2WO_DSgV_mOOM=w480-h960-rw" alt="Linkedin">
+  <img src="https://play-lh.googleusercontent.com/A-Rnrh0J7iKmABskTonqFAANRLGTGUg_nuE4PEMYwJavL3nPt5uWsU2WO_DSgV_mOOM=w480-h960-rw" alt="X">
+  </a>
+  <br>
+  <a href="https://facebook.com/kevenobr">
+  <img src="https://play-lh.googleusercontent.com/KCMTYuiTrKom4Vyf0G4foetVOwhKWzNbHWumV73IXexAIy5TTgZipL52WTt8ICL-oIo=w480-h960-rw" alt="Facebook">
   </a>
   <a href=https://br.linkedin.com/in/kevenobr>
   <img src="https://play-lh.googleusercontent.com/kMofEFLjobZy_bCuaiDogzBcUT-dz3BBbOrIEjJ-hqOabjK8ieuevGe6wlTD15QzOqw=w240-h480-rw" alt="Linkedin">
+  </a>
+  <a href="https://pinterest.com/kevenobr">
+  <img src="https://play-lh.googleusercontent.com/6CFQQ0b9r5fzF1v6f0gIirWsOGL7sGWkJifuUQxxhbCMcBx5aSG_cNXpjDKDn5c1jwjq=w480-h960-rw" alt="Pinterest">
+  </a>
+  <a href="https://reddit.com/user/kevenobr">
+  <img src="https://play-lh.googleusercontent.com/6Bexlvoh-v0z0YnxzXo_U5e5A6UdAETe8pIYyQ2E2KfhVf2BK5J83pFXKZbt125FHHQ=w480-h960-rw" alt="Reddit">
   </a>
 </div>
 
@@ -85,7 +111,7 @@
   <button onclick="greetUser()">hello</button>
 </div>
       
-      
+      <!-- cookieCode 2 start -->
         <!--
             COOKIE DIALOG HTML (cookieConsent.html) 
             This doesn't have to be here but cookieConsent.html can be inserted instead.
@@ -130,8 +156,8 @@
                         <br>
                                 
                         <div id="cookieDialog_buttonbar" class="buttonbar">
-                            <input type="submit" name="" value="Salvar" id="coookieDialog_save_button" class="cookieNoticeButton gray" title="">
-                            <input type="submit" name="" value="Aceitar tudo" id="coookieDialog_acceptAll_button" class="cookieNoticeButton green" title="">
+                            <input type="submit" name="" value="Save preferences" id="coookieDialog_save_button" class="cookieNoticeButton gray" title="">
+                            <input type="submit" name="" value="Accept all" id="coookieDialog_acceptAll_button" class="cookieNoticeButton green" title="">
                         </div>
                 
                     </div>
@@ -143,10 +169,13 @@
 
 
             <!-- LINK TO OPEN COOKIE DIALOG AFTER IT WAS CLOSED BY USER -->
-            <a href="#" class="showCookieDialog">Open cookie consent form</a>
+            <footer>
+          
+            <a href="#" class="showCookieDialog">cookies</a>
+            </footer>
 <!--cookie banner model src: https://github.com/monsterlessonsacademy/monsterlessonsacademy/tree/231-cookie-consent-banner-->
         <!-- load cookieConsent javascript -->
         <script type="text/javascript" src="script.js"></script>
-        <!-- cookieCode end -->
+        <!-- cookieCode 2 end -->
     </body>
 </html>

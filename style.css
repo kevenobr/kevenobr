@@ -1,10 +1,5 @@
 /* cookieCode start */
 /* CONTENT STYLE */
-.content {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
 /* ROUND SWITCH CHECKBOX */
 
 .switch {
@@ -45,11 +40,11 @@
 }
 
 input:checked + .checkboxSlider {
-  background-color: #64c633;
+  background-color: purple;
 }
 
 input:focus + .checkboxSlider {
-  box-shadow: 0 0 1px #64c633;
+  box-shadow: 0 0 1px purple;
 }
 
 input:checked + .checkboxSlider:before {
@@ -155,12 +150,32 @@ input:checked + .checkboxSlider:before {
 
 .cookieNoticeButton.green {
   color: #fff;
-  background: #64c633;
+  background: purple;
 }
 
 .cookieNoticeButton.green:hover {
-  background: #6fe434;
+  background: purple;
 }
+
+.buttonbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: row;
+  padding: 10px;
+}
+
+#coookieDialog_save_button {
+  padding: 20px;
+  margin-right: 10px;
+}
+
+#coookieDialog_acceptAll_button {
+  padding: 20px;
+  margin-left: 10px;
+}
+
 /* cookieCode end */
 
 img {
@@ -172,7 +187,6 @@ img {
 }
 
 .media {
-  display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -321,7 +335,7 @@ footer {
   width: 100%;
   text-align: center;
   padding: 20px;
-  background-color: black;
+  background-color: purple;
 }
 
 .footerP {
@@ -338,10 +352,6 @@ footer {
 
  /*cookie code*/
  /* CONTENT STYLE */
-.content {
-  max-width: 1200px;
-  margin: 0 auto;
-}
 
 /* ROUND SWITCH CHECKBOX */
 
@@ -383,11 +393,11 @@ footer {
 }
 
 input:checked + .checkboxSlider {
-  background-color: #64c633;
+  background-color: purple;
 }
 
 input:focus + .checkboxSlider {
-  box-shadow: 0 0 1px #64c633;
+  box-shadow: 0 0 1px purple;
 }
 
 input:checked + .checkboxSlider:before {
@@ -493,9 +503,49 @@ input:checked + .checkboxSlider:before {
 
 .cookieNoticeButton.green {
   color: #fff;
-  background: #64c633;
+  background: purple;
 }
 
 .cookieNoticeButton.green:hover {
-  background: #6fe434;
+  background: purple;
+}
+
+/* gemini's cookie banner */
+
+#cookie-banner {
+    background-color: #f2f2f2;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 9999;
+}
+/* gemini's cookie banner */
+
+/*#hiddenDiv {
+  display: none;
+} */
+
+.off-screen-cookie {
+  background-color: purple;
+    height: 100vh;
+    width: 50%;
+    max-width: 450px;
+    position: fixed;
+    top: 0;
+    right: -450px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    border: solid 2px black;   
+    /*justify-content: center;*/
+    /*text-align: center;*/
+    font-size: 22px;
+    transition: .3s ease;
+}
+
+#ddddd{
+  color: black;
 }

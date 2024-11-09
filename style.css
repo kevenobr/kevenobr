@@ -340,8 +340,10 @@ footer {
   background-color: purple;
 }
 
-.footerP {
+#footerP {
+  font-size: 10px;
   color: white;
+  margin: 10px;
 }
 
 #footerLine {

@@ -13,11 +13,3 @@ footer {
   padding: 20px;
   background-color: purple;
 }
-
-.singleText {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100vw; /* Viewport width */
-  height: auto; /* Or a specific height */
-}

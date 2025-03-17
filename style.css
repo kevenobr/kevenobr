@@ -223,8 +223,6 @@ nav {
 h1 {
  border-radius: 50px;
  color: black;
- background-color: white;
- width: 50%;
  text-align: center;
  margin: 0 auto;
 }
@@ -254,7 +252,7 @@ a:hover {
 
 body {
     text-align: center;
-    background-color: black;
+    background-color: white;
     font-family: sans-serif;
     align-content: center;
     align-items: center;
